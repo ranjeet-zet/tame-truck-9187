@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,300;1,400;1,500;1,700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <style>
+        #form{
+            border:1px solid red;
+            width: 40%;
+            height: 600px;
+            margin: auto;
+            font-family: 'Roboto', sans-serif;
+        }
+        h1 {
+            margin-top: 5rem;
+            color: #333e48;
+            font-weight: 300;
+        }
+        #dont_have {
+            float: right;
+            margin-right: 2rem;
+            margin-top: 2rem;
+            color: #505a62;
+            font-weight: 300;
+        }
+        #dont_have a {
+            text-decoration: none;
+            color: #418298;
+            font-weight: 400;
+            margin-left: 4px;
+        }
+
+        #dont_have a:hover { 
+            text-decoration: underline;
+        }
+        label {
+            font-size: 15px;
+        }
+
+        span {
+            color:#1cc377;
+            margin-left: 10px;
+        }
+
+       #login_container {
+        /* border: 1px solid red; */
+        width: 75%;
+        margin: auto;
+        margin-left: 2rem;
+       }
+
+       #login_container2 {
+        /* border: 1px solid red; */
+        width: 75%;
+        margin: auto;
+        margin-left: 2rem;
+       }
+
+       #email {
+        width: 110%;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+       }
+
+       #forgot {
+        margin-top: 0rem;
+        color: #367a91;
+       }
+
+       #forgot:hover {
+        text-decoration: underline;
+       }
+
+       #log_in {
+        width: 112%;
+        padding: 15px;
+        background-color: #a3e6c6;
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 3px;
+        /* border-bottom: 1px solid blue; */
+       }
+       hr {
+        width: 457px;
+        margin-left: -2rem;
+        margin-top:2rem;
+        
+       }
+
+       #line {
+        color: #505a62;
+        font-weight: 300;
+       }
+
+       #sso {
+        width: 112%;
+        padding: 15px;
+        background: none;
+        border: 1px solid #c1c3c4;
+        font-weight: 400;
+        margin-bottom: 20px;
+       }
+
+       #sso:hover {
+        background-color: #edeeee;
+       }
+
+        #login_logo {
+            /* border:  1px solid blue; */
+            width: 117%;
+            
+        }
+        #microsoft{
+            width: 7%;
+            border: 1px solid #c1c3c4;
+            padding: 13px 13px;
+            margin-right: 1.2rem;
+        }
+        #facebook{
+            width: 9%;
+            border: 1px solid #c1c3c4;
+            padding: 9px 11px;        
+             margin-right: 1.2rem;
+        }
+        #linkedin{
+            width: 25px;
+            height: 20px;
+            border: 1px solid #c1c3c4;
+            padding: 17px 16px;
+            margin-right: 1.2rem;
+            background: transparent;
+        }
+        #google{
+            width: 8%;
+            height: 30px;
+            border: 1px solid #c1c3c4;
+            padding: 12px 13px;
+            margin-right: 1.2rem;
+            
+        }
+        #apple{
+            width: 6%;
+            height: 30px;
+            border: 1px solid #c1c3c4;
+            padding: 12px 14px;
+            margin-right: 1.2rem;
+        }
+
+        #microsoft:hover {
+            background-color: #edeeee;
+        }
+
+        #facebook:hover {
+            background-color: #edeeee;
+        }
+
+        #linkedin:hover {
+            background-color: #edeeee;
+        }
+
+        #google:hover {
+            background-color: #edeeee;
+        }
+
+        #apple:hover {
+            background-color: #edeeee;
+        }
+        #names {
+            width: 110%;
+            border: 1px solid blue;
+            /* display: flex; */
+            justify-content: space-between;
+            font-size: 12px;
+            
+        }
+        #micro {
+            padding: 5px 0px;
+            border: 1px solid red;
+        }
+        #face {
+            /* margin-left: -2.5rem; */
+            margin-right: 0.9rem;
+            padding: 5px 0px;
+            border: 1px solid red;
+        }
+         #linked {
+            /* margin-left: -1rem; */
+            margin-right: -0.5rem;
+            padding: 5px 2px;
+            border: 1px solid red;
+        }
+        #goog {
+            /* margin-left: -1.7rem; */
+            margin-right: -0.7rem;
+            padding: 5px 2px;
+            border: 1px solid red;
+        }
+        #app {
+            margin-right: 0.5rem;
+            padding: 5px 0px;
+            border: 1px solid red;
+        } 
+    </style>
+</head>
+<body>
+    
+    <div id="form">
+        
+        <p id="dont_have">Don't have an account?<a href = "signup.html">Sign up</a></p>
+
+        <div id="login_container">
+
+        <h1>Log in</h1>
+        <label for="">Email address</label><span>NEW!</span><br>
+        <input type="email" id="email" placeholder="">
+        <p id="forgot">Forgot email?</p>
+    
+        <button onclick="loggedInUser" id="log_in">Next</button>
+        <hr>
+    </div>
+
+    <div id="login_container2">
+        <p id="line">Or log in with</p>
+        <button id="sso">SSO</button>
+        <div id="login_logo">
+            <a href=""><img src="https://icon-library.com/images/microsoft-icon-png/microsoft-icon-png-21.jpg" alt="" id="microsoft"></a>
+            <a href=""><img src="https://habitat-nola.org/wp-content/uploads/2017/02/facebook-icon-preview-1.png" alt="" id="facebook"></a>
+            <a href=""><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" id="linkedin"></a>
+            <a href=""><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" id="google"></a>
+            <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/814px-Apple_logo_black.svg.png" id="apple"></a>
+        </div>
+
+        <div id="names">
+            <div id="micro">Microsoft</div>
+            <div id="face">Facebook</div>
+            <div id="linked">LinkedIn</div>
+            <div id="goog">Google</div>
+            <div id="app">Apple</div>
+        </div>
+    </div>
+  
+      </div>
+  </body>
+</html>
