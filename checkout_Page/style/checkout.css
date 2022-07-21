@@ -71,7 +71,7 @@
 }
 
 #formdata>input {
-    height: 30px;
+    height: 40px;
 }
 
 .name {
@@ -259,11 +259,17 @@
     height: 25px;
 }
 
+/* payment part */
 #payment {
     height: auto;
     width: 50%;
-    /* border: 1px solid green; */
+    /* border: 2px solid green; */
     margin-top: 5%;
+}
+
+#payment img {
+    margin-right: 65%;
+    font-size: 10px;
 }
 
 #paymenthr {
@@ -281,18 +287,13 @@
     height: 100px;
     /* width: 100%; */
     /* border: 1px solid black; */
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 #payment2>input {
     margin-top: 3%;
     width: 98%;
-    height: 35px;
-}
-
-#payment img {
-    margin-right: 65%;
-    font-size: 10px;
+    height: 40px;
 }
 
 #payment3 {
@@ -303,16 +304,190 @@
 #payment3>input {
     margin-top: 3%;
     width: 98%;
-    height: 35px;
+    height: 40px;
 }
 
+.cardbox {
+    height: auto;
+    width: 99%;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+}
+
+.box1 {
+    height: 140px;
+    width: 20%;
+    border: 1px solid #00bf6f;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 11%);
+    /* margin: 0 5px 0 5px; */
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+/* .box1:hover,
+.box2:hover {
+    background-color: #00bf6f;
+
+} */
+.box.active:hover {
+    background-color: #00bf6f;
+}
+
+.box2 {
+    height: 140px;
+    width: 20%;
+    border: 1px solid #00bf6f;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 11%);
+    /* margin: 0 5px 0 5px; */
+    cursor: pointer;
+    margin-top: 5%;
+
+}
+
+.righticon {
+    height: auto;
+    /* border: 1px solid #00bf6f; */
+    width: 99%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15%;
+}
+
+.iconurl {
+    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/Checkmark-payment-method.svg);
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    background-repeat: no-repeat;
+}
+
+.cardurl {
+    height: auto;
+    width: 99%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finalurl {
+    height: 18px;
+    width: 25px;
+    /* border: 1px solid #00bf6f; */
+    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/CC-logo-green.svg);
+    background-repeat: no-repeat;
+
+}
+
+.text {
+    height: auto;
+    width: 97%;
+    /* border: 2px solid goldenrod; */
+    color: #333e48;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 15%;
+    text-align: center;
+    font-family: National\ 2, Helvetica Neue, Helvetica, Arial, Hiragino Sans, Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
+}
+
+.invoice {
+    height: auto;
+    width: 99%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    color: #333e48;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 400;
+    font-family: National\ 2, Helvetica Neue, Helvetica, Arial, Hiragino Sans, Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
+}
+
+.invoiceurl {
+    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/Invoice-logo-default.svg);
+    height: 22px;
+    width: 24px;
+    background-repeat: no-repeat;
+    margin: 0px 5px 0px 5px;
+    margin-bottom: 15%;
+
+}
+
+.invoicetext {
+    height: auto;
+    width: 99%;
+    /* border: 1px solid gold; */
+    text-align: center;
+    color: #333e48;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 400;
+    font-family: National\ 2, Helvetica Neue, Helvetica, Arial, Hiragino Sans, Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
+
+}
+
+.credit_input {
+    height: auto;
+    width: 99%;
+    /* border: 1px solid red; */
+}
+
+/* order review */
 #review_order {
-    height: 200px;
-    width: 50%;
+    height: 70px;
+    width: 100%;
     /* border: 1px solid pink; */
     margin-top: 5%;
 }
 
 #review_order>hr {
     margin-top: 5%;
+}
+
+#mainreview {
+    height: auto;
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin-top: 3%;
+
+}
+
+#bill {
+    height: 600px;
+    width: 99%;
+    /* border: 1px solid #00bf6f; */
+    background-color: #F7F8FA;
+    position: relative;
+}
+
+#bill1 {
+    height: auto;
+    width: 99%;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 5px;
+
+}
+
+#bill1>div {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.35;
+
+}
+
+#bill1>div>img {
+    height: 15px;
+}
+
+#bill1 p {
+    margin-left: -55%;
+    margin-top: 2%;
 }
