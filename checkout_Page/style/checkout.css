@@ -14,35 +14,57 @@
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     box-shadow: 0 17px 10px -15px rgb(0 0 0 / 11%);
 
-
-}
-
-
-#left {
-    height: 80px;
-    width: 40%;
-    /* border: 2px solid black; */
-    margin-top: 100px;
-    margin-left: 300px;
-}
-
-#left>h2 {
-    margin-bottom: 20px;
-}
-
-#user_Details {
-    height: 500px;
-    width: 40%;
-    /* border: 1px solid teal; */
-    margin-left: 300px;
-    margin-top: 10px;
-
 }
 
 #lock {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#maincontainer {
+    height: auto;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 2%;
+}
+
+#maintop_left_right {
+    height: auto;
+    width: 98%;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 100px;
+    padding: 5px;
+}
+
+#leftside {
+    height: 700px;
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+
+#rightside {
+    height: auto;
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+
+#left>h2 {
+    margin-bottom: 8%;
+}
+
+#user_Details {
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid teal; */
+    margin-top: 5%;
+}
+
+#formdata>input {
+    height: 30px;
 }
 
 .name {
@@ -58,21 +80,18 @@
 #first_name,
 #last_name,
 #Billing_email {
-    width: 80%;
-    height: 40px;
+    width: 95%;
+    height: auto;
 }
 
 #btn {
-    margin-top: 80px;
+    margin-top: 10%;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: flex-end;
-
-
 }
 
 #btn>input {
-    /* font-size: 20px; */
     display: inline-flex;
     -webkit-box-pack: center;
     justify-content: center;
@@ -89,120 +108,204 @@
     border-color: rgb(0, 191, 111);
     padding: 10px;
     margin-right: 20px;
+}
 
-
+#right {
+    height: auto;
+    width: 95%;
+    /* border: 1px solid green; */
+    margin: auto;
 }
 
 #icon {
     height: 200px;
-    /* border: 2px solid yellowgreen; */
+    /* border: 2px solid black; */
     background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.66.0/assets/Advantage_illustration.svg);
-    width: 20%;
-    margin-top: -600px;
-    margin-left: 1300px;
+    /* width: 20%; */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
-
 }
 
 .heading_right {
-    margin-left: 1100px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #333e48;
     line-height: 1.5;
-    /* margin: 0; */
-    text-align: center;
     font-weight: 400;
+}
+
+#mainsection {
+    height: auto;
+    width: 60%;
+    /* margin: auto; */
+    /* border: 1px solid red; */
+    margin-left: 30%;
 }
 
 #section {
     height: auto;
-    /* border: 2px solid black; */
-    width: 13%;
-    margin-left: 1400px;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
     font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
-    /* margin: 0; */
     font-weight: 500;
     font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    line-height: 30px;
-    margin-top: 50px;
     color: gray;
 
 }
 
-#section1,
-#section2,
-#section3,
-#section4,
+
+#section>img {
+    height: 25px;
+}
+
+#section1 {
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    color: gray;
+
+}
+
+#section1>img {
+    height: 25px;
+}
+
+#section2 {
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    color: gray;
+
+}
+
+#section2>img {
+    height: 25px;
+}
+
+#section3 {
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    color: gray;
+
+}
+
+#section3>img {
+    height: 25px;
+}
+
+#section4 {
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    color: gray;
+
+}
+
+#section4>img {
+    height: 25px;
+}
+
 #section5 {
-    /* height: 100px; */
-    /* border: 2px solid black; */
-    width: 13%;
-    margin-left: 1400px;
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 10px;
     font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
-    /* margin: 0; */
     font-weight: 500;
     font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    line-height: 30px;
-    margin-top: 60px;
     color: gray;
+
 }
 
-#section,
-#section1,
-#section2,
-#section3,
-#section4,
 #section5>img {
-    height: 25px
+    height: 25px;
 }
 
 #payment {
-    height: 100px;
-    width: 30%;
+    height: auto;
+    width: 50%;
     /* border: 1px solid green; */
-    margin-left: 300px;
-    margin-top: -100px;
+    margin-top: 5%;
+}
+
+#paymenthr {
+    margin-top: 5%;
+}
+
+#payment1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+
+}
+
+#payment2 {
+    height: 100px;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    margin-top: 10%;
+}
+
+#payment2>input {
+    margin-top: 3%;
+    width: 98%;
+    height: 35px;
 }
 
 #payment img {
-    margin-right: 300px;
+    margin-right: 65%;
     font-size: 10px;
 }
 
-#review_order {
+#payment3 {
     height: 100px;
-    /* border: 1px solid blue; */
-    width: 40%;
-    margin-left: 300px;
-    margin-top: 40px;
-
+    margin-top: 3%;
 }
 
-#review_order hr {
-    margin-top: 30px;
+#payment3>input {
+    margin-top: 3%;
+    width: 98%;
+    height: 35px;
 }
 
-#payment_hr {
-    /* height: 100px; */
-    width: 40%;
-    margin-left: 300px;
-    margin-top: -20px;
+#review_order {
+    height: 200px;
+    width: 50%;
+    /* border: 1px solid pink; */
+    margin-top: 5%;
+}
+
+#review_order>hr {
+    margin-top: 5%;
 }
