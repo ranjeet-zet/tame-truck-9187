@@ -403,3 +403,121 @@ h1 {
   font-size: 12px;
   color: #333e48;
 }
+#Showingtemplates {
+  width: 85%;
+  margin: auto;
+  height: 450px;
+  border: 1px solid transparent;
+  /* background-color: #f7f8fa; */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+#Showingtemplates > div {
+  border: 1px solid transparent;
+  height: 100%;
+  /* text-align: center; */
+}
+#Showingtemplates button {
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.468);
+  background-color: transparent;
+  margin-left: 10%;
+  cursor: pointer;
+}
+#Showingtemplates button:hover {
+  background-color: #00bf6f93;
+}
+#Showingtemplates > div button {
+  display: flex;
+  height: 25px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+#Showingtemplates > div input {
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.468);
+  background-color: transparent;
+  margin-left: 10%;
+  height: 30px;
+  margin-top: 22px;
+  border-radius: 5px;
+}
+
+#main_filter > div > h2 {
+  margin-left: 10%;
+  color: #333e48e3;
+}
+#main_filter > div > p {
+  margin-left: 10%;
+  font-weight: bold;
+  color: #333e48cd;
+}
+#main_filter::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+#main_filter::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #00bf6f;
+}
+#main_append {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#main_append::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f7f8fa;
+}
+#main_append::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #00bf6f;
+}
+#main_append {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+
+  gap: 20px;
+  grid-template-rows: auto;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 18px;
+  /* padding-bottom: 35px; */
+}
+.col-md-4 {
+  height: auto;
+  position: relative;
+}
+.col-md-4 > img {
+  width: 100%;
+  display: block;
+}
+.col-md-4 > p {
+  width: 80%;
+  white-space: normal;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* font-size: auto; */
+}
+#card_total {
+  color: #00bf6f;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#main_filter {
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-top: 18px;
+  /* position: relative; */
+  /* scrollbar-arrow-color: #00bf6f; */
+}
