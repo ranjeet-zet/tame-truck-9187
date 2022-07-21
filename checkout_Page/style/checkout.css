@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#top {
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: 0 17px 10px -15px rgb(0 0 0 / 11%);
+
+
+}
+
+
+#left {
+    height: 80px;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#left>h2 {
+    margin-bottom: 20px;
+}
+
+#user_Details {
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid teal; */
+    margin-left: 300px;
+    margin-top: 10px;
+
+}
+
+#lock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    display: block;
+    color: #333e48;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 4px;
+
+}
+
+#first_name,
+#last_name,
+#Billing_email {
+    width: 80%;
+    height: 40px;
+}
+
+#btn {
+    margin-top: 80px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+#btn>input {
+    /* font-size: 20px; */
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 191, 111);
+    border-radius: 2px;
+    text-decoration: none;
+    border-color: rgb(0, 191, 111);
+    padding: 10px;
+    margin-right: 20px;
+
+
+}
+
+#icon {
+    height: 200px;
+    /* border: 2px solid yellowgreen; */
+    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.66.0/assets/Advantage_illustration.svg);
+    width: 20%;
+    margin-top: -600px;
+    margin-left: 1300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
+
+.heading_right {
+    margin-left: 1100px;
+    text-align: center;
+    font-size: 30px;
+    color: #333e48;
+    line-height: 1.5;
+    /* margin: 0; */
+    text-align: center;
+    font-weight: 400;
+}
+
+#section {
+    height: auto;
+    /* border: 2px solid black; */
+    width: 13%;
+    margin-left: 1400px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    /* margin: 0; */
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 30px;
+    margin-top: 50px;
+    color: gray;
+
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5 {
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    width: 13%;
+    margin-left: 1400px;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    /* margin: 0; */
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 30px;
+    margin-top: 60px;
+    color: gray;
+}
+
+#section,
+#section1,
+#section2,
+#section3,
+#section4,
+#section5>img {
+    height: 25px
+}
+
+#payment {
+    height: 100px;
+    width: 30%;
+    /* border: 1px solid green; */
+    margin-left: 300px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#payment img {
+    margin-right: 300px;
+    font-size: 10px;
+}
+
+#review_order {
+    height: 100px;
+    /* border: 1px solid blue; */
+    width: 40%;
+    margin-left: 300px;
+    margin-top: 40px;
+
+}
+
+#review_order hr {
+    margin-top: 30px;
+}
+
+#payment_hr {
+    /* height: 100px; */
+    width: 40%;
+    margin-left: 300px;
+    margin-top: -20px;
+}
