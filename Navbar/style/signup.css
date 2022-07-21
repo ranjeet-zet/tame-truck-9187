@@ -80,6 +80,8 @@
     text-decoration: none;
 }
 
+
+
 #sign_first a:hover {
    text-decoration: underline;
 }
@@ -96,6 +98,10 @@ input[type=checkbox] {
 width: 25px;
 height: 50px;
 }
+
+/* input[type=checkbox]:checked + #sign_first {
+    background-color: #f00;
+} */
    
    #sign_up {
     width: 112%;
