@@ -1,0 +1,213 @@
+#nav_logo {
+    margin-left: 21.3rem;
+    padding-bottom: -3rem;
+   }
+
+    #form{
+        /* border:1px solid red; */
+        width: 40%;
+        height: 600px;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    #login_container h1 {
+        padding-top: 5rem;
+        margin-bottom: 1rem;
+        color: #333e48;
+        font-weight: 300;
+    }
+    #dont_have {
+        float: right;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        /* margin-bottom: 12rem; */
+        color: #505a62;
+        font-weight: 300;
+    }
+    #dont_have a {
+        text-decoration: none;
+        color: #418298;
+        font-weight: 400;
+        margin-left: 4px;
+    }
+
+    #dont_have a:hover { 
+        text-decoration: underline;
+    }
+    label {
+        font-size: 15px;
+    }
+
+    span {
+        color:#1cc377;
+        margin-left: 10px;
+    }
+
+   #login_container {
+    /* border: 1px solid red; */
+    width: 75%;
+    /* height: 500px; */
+    margin: auto;
+    margin-left: 2rem;
+    
+   }
+
+   #login_container2 {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: auto;
+    margin-left: 2rem;
+    margin-top: 2rem;
+   }
+
+   #email {
+    width: 110%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   }
+
+   #forgot {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    color: #367a91;
+   }
+
+   #forgot:hover {
+    text-decoration: underline;
+   }
+
+   #log_in {
+    width: 112%;
+    padding: 15px;
+    background-color: #a3e6c6;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+   
+   }
+   hr {
+    width: 457px;
+    margin-left: -2rem;
+    margin-top:2rem;
+    
+   }
+
+   #line {
+    color: #505a62;
+    font-weight: 300;
+    margin-bottom: 1rem;
+   }
+
+   #sso {
+    width: 112%;
+    padding: 15px;
+    background: none;
+    border: 1px solid #c1c3c4;
+    font-weight: 400;
+    margin-bottom: 20px;
+   }
+
+   #sso:hover {
+    background-color: #edeeee;
+   }
+
+    #login_logo {
+        
+        width: 117%;
+        
+    }
+    #microsoft{
+        width: 7%;
+        border: 1px solid #c1c3c4;
+        padding: 13px 13px;
+        margin-right: 1.2rem;
+    }
+    #facebook{
+        width: 9%;
+        border: 1px solid #c1c3c4;
+        padding: 9px 11px;        
+         margin-right: 1.2rem;
+    }
+    #linkedin{
+        width: 25px;
+        height: 20px;
+        border: 1px solid #c1c3c4;
+        padding: 17px 16px;
+        margin-right: 1.2rem;
+        background: transparent;
+    }
+    #google{
+        width: 8%;
+        height: 30px;
+        border: 1px solid #c1c3c4;
+        padding: 12px 13px;
+        margin-right: 1.2rem;
+        
+    }
+    #apple{
+        width: 6%;
+        height: 30px;
+        border: 1px solid #c1c3c4;
+        padding: 12px 14px;
+        margin-right: 1.2rem;
+    }
+
+    #microsoft:hover {
+        background-color: #edeeee;
+    }
+
+    #facebook:hover {
+        background-color: #edeeee;
+    }
+
+    #linkedin:hover {
+        background-color: #edeeee;
+    }
+
+    #google:hover {
+        background-color: #edeeee;
+    }
+
+    #apple:hover {
+        background-color: #edeeee;
+    }
+    #names {
+        width: 110%;
+       
+        display: flex;
+        font-weight: 400;
+        color: #505a62;
+        font-size: 12px;
+        
+    }
+    #micro {
+        margin-left: 0.2rem;
+        padding: 5px 0px;
+       
+    }
+    #face {
+        margin-left: 1.7rem;
+        
+        padding: 5px 3px;
+       
+    }
+     #linked {
+        margin-left: 1.7rem;
+        
+        padding: 5px 2px;
+       
+    }
+    #goog {
+        margin-left: 2.4rem;
+       
+        padding: 5px 2px;
+        
+    }
+    #app {
+        margin-left: 2.7rem;
+        padding: 5px 0px;
+      
+    } 

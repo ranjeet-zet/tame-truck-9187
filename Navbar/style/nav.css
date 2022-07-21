@@ -1,0 +1,61 @@
+#navbar {
+    display: flex;
+    border: 1px solid blue;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+   }
+
+#nav_logo {
+width: 160px;
+}
+   #nav_middle {
+    display: flex;
+    width: 50%;
+    margin-left: 6rem;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #333e48;
+   }
+
+   h3:first-child:hover {
+    color: rgb(142, 141, 141);
+   }
+
+   h3:nth-child(2):hover {
+    color:rgb(142, 141, 141);
+   }
+   h3:nth-child(3):hover {
+    color:rgb(142, 141, 141);
+   }
+   h3:nth-child(4):hover {
+    color:rgb(142, 141, 141);
+   }
+
+   #nav_right {
+   margin-left: 9rem;
+padding: 17px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    
+   
+   }
+   #nav_right a { 
+    text-decoration: none;
+    color: black;
+    
+   }
+   #logIn {
+    padding-right: 18px;
+   
+   
+   }
+   #signUp {
+    
+    padding: 5px 12px;
+    border-radius: 3px;
+    background-color: #f9be00;
+   }
+#nav_icon {
+    padding-left: 10px;
+
+   }
