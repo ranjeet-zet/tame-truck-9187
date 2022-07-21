@@ -166,6 +166,96 @@ let Arr = [
     name: "Market Research Service",
     catigory: "product",
   },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//Product-Survey.png",
+    name: "Product Survey",
+    catigory: "marketing",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png",
+    name: "Brand Awareness",
+    catigory: "marketing",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//product-testing-survey-template.png",
+    name: "Product Testing",
+    catigory: "marketing",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//online-shopping-attitudes-survey-template.png",
+    name: "Online Shopping Attitudes",
+    catigory: "marketing",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//market-research-service-survey-template.png",
+    name: "Market Research Service",
+    catigory: "marketing",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//volunteer-feedback-survey-template.png",
+    name: "Volunteer Feedback",
+    catigory: "netprofit",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//fundraising-feedback-survey-template.png",
+    name: "Fundraising Feedback",
+    catigory: "netprofit",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//donor-feedback-survey-template.png",
+    name: "Donor Feedback",
+    catigory: "netprofit",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//non-profit-organization-information-survey-template.png",
+    name: "Non-Profit Organization Information",
+    catigory: "netprofit",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//u-s-government-support-programs-survey-templatepng.png",
+    name: "U.S. Government Support Programs",
+    catigory: "netprofit",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//diet-exercise-survey-template.png",
+    name: "Diet & Exercise",
+    catigory: "health",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//post-visit-patient-satisfaction-survey-template.png",
+    name: "Post Visit Patient Satisfaction",
+    catigory: "health",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//hospital-performance-evaluation-survey-template.png",
+    name: "Hospital Performance Evaluation",
+    catigory: "health",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//hospital-performance-evaluation-survey-template.png",
+    name: "Hospital Performance Evaluation",
+    catigory: "health",
+  },
+  {
+    image:
+      "https://prod.smassets.net/assets/cms/sm/uploads//cahps-visit-survey-2-0-survey-template.png",
+    name: "Cahps Visit Survey 2.0",
+    catigory: "health",
+  },
 ];
 displaycard(Arr);
 function displaycard(data) {
@@ -221,9 +311,9 @@ document.getElementById("card_eve").addEventListener("click", function () {
   });
   displaycard(Data);
 });
-document.getElementById("card_pro").addEventListener("click", function () {
+document.getElementById("card_hel").addEventListener("click", function () {
   let Data = Arr.filter((element) => {
-    return element.catigory === "product";
+    return element.catigory === "health";
   });
   displaycard(Data);
 });
@@ -233,6 +323,20 @@ document.getElementById("card_emp").addEventListener("click", function () {
   });
   displaycard(Data);
 });
+
+document.getElementById("card_mar").addEventListener("click", function () {
+  let Data = Arr.filter((element) => {
+    return element.catigory === "marketing";
+  });
+  displaycard(Data);
+});
+document.getElementById("card_net").addEventListener("click", function () {
+  let Data = Arr.filter((element) => {
+    return element.catigory === "netprofit";
+  });
+  displaycard(Data);
+});
+
 document.getElementById("card_all").addEventListener("click", function () {
   displaycard(Arr);
 });
