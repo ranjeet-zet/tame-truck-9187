@@ -103,8 +103,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
-
 }
 
 .heading_right {
@@ -171,15 +169,32 @@
 }
 
 #payment {
-    height: 100px;
+    height: 300px;
     width: 30%;
     /* border: 1px solid green; */
     margin-left: 300px;
-    margin-top: -100px;
+    margin-top: -160px;
+    margin-bottom: 20px;
+}
+
+#payment1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+
+}
+
+#payment2 {
+    height: 70px;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+
+#payment2>input {
+    margin-top: 10px;
+    width: 98%;
+    height: 35px;
 }
 
 #payment img {
@@ -196,13 +211,24 @@
 
 }
 
-#review_order hr {
-    margin-top: 30px;
+#payment3 {
+    height: 70px;
+    margin-top: 40px;
 }
 
-#payment_hr {
-    /* height: 100px; */
-    width: 40%;
-    margin-left: 300px;
-    margin-top: -20px;
+#payment3>input {
+    margin-top: 10px;
+    width: 98%;
+    height: 35px;
 }
+
+/* #review_order hr {
+    margin-top: 30px;
+} */
+
+/* #payment_hr {
+    height: 100px;
+width: 40%;
+margin-left: 300px;
+margin-top: -20px;
+}  */
