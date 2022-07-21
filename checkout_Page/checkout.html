@@ -23,15 +23,19 @@
             <div id="leftside">
                 <div id="left">
                     <h2>1.Billing Details</h2>
-                    <hr>
+
+                    <h2 onclick="show()" id="open">Edit</h2>
+
                 </div>
+                <hr>
                 <div id="user_Details">
 
                     <form id="formdata">
-                        <label class="name" for="First_name" type="text" data-required="true"><b>First name</b></label>
-                        <input id="first_name" type="text" required>
+                        <label class="name" for="First_name" type="text" /* data-required="true" * /><b>First
+                            name</b></label>
+                        <input id="first_name" type="text">
                         <label class="name" for="Last_name" type="text"><b>Last name</b></label>
-                        <input id="last_name" type="text" required>
+                        <input id="last_name" type="text">
 
                         <label class="name" for="Country" type="text"><b>Country</b></label>
                         <select name="" id="country">
@@ -48,7 +52,7 @@
                             <option value="United Arab Emirates"> United Arab Emirates</option>
                         </select>
                         <label class="name" for="Billing_email" type="email"><b>Billing email</b></label>
-                        <input id="Billing_email" type="email" required>
+                        <input id="Billing_email" type="email">
 
                         <!-- <h3>Add business information - optional</h3> -->
 
@@ -139,11 +143,11 @@
 
             <div id="payment2">
                 <h2 id="">Name on card</h2>
-                <input id="payment2_card" type="text" required>
+                <input id="payment2_card" type="text">
             </div>
             <div id="payment3">
                 <h2 id="">Credit card info</h2>
-                <input id="payment3_card" type="text" required>
+                <input id="payment3_card" type="text">
             </div>
 
         </div>
