@@ -1,24 +1,24 @@
-#nav_logo {
+#signup_nav_logo {
     margin-left: 21.3rem;
     padding-bottom: -3rem;
    }
 
-    #form{
+    #signup_form{
         /* border:1px solid red; */
         width: 40%;
-        height: 600px;
+        height: 650px;
         margin: auto;
         font-family: 'Roboto', sans-serif;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         /* display: none; */
     }
-    #login_container h1 {
+    #signup_container h1 {
         padding-top: 5rem;
         margin-bottom: 1rem;
         color: #333e48;
         font-weight: 300;
     }
-    #dont_have {
+    #sign_dont_have {
         float: right;
         margin-right: 2rem;
         margin-top: 2rem;
@@ -26,14 +26,14 @@
         color: #505a62;
         font-weight: 300;
     }
-    #dont_have a {
+    #sign_dont_have a {
         text-decoration: none;
         color: #418298;
         font-weight: 400;
         margin-left: 4px;
     }
 
-    #dont_have a:hover { 
+    #sign_dont_have a:hover { 
         text-decoration: underline;
     }
     label {
@@ -45,41 +45,59 @@
         margin-left: 10px;
     }
 
-   #login_container {
-    /* border: 1px solid red; */
+   #signup_container {
+    
     width: 75%;
-    /* height: 500px; */
+
     margin: auto;
     margin-left: 2rem;
     
    }
 
-   #login_container2 {
-    /* border: 1px solid red; */
+   #signup_container2 {
+   
     width: 75%;
     margin: auto;
     margin-left: 2rem;
     margin-top: 2rem;
    }
 
-   #email {
+   #signup_email {
     width: 110%;
     height: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
    }
+#sign_first {
+   
+    font-size: 12px;
+    margin-left: 2.5rem;
+    margin-top: -2.3rem;
+    color: #9ba3a8;
+}
+#sign_first a {
+    color: #7ca8b8;
+    text-decoration: none;
+}
 
-   #forgot {
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-    color: #367a91;
-   }
+#sign_first a:hover {
+   text-decoration: underline;
+}
 
-   #forgot:hover {
-    text-decoration: underline;
-   }
+#sign_second {
+    
+    font-size: 11px;
+    margin-left: 2.5rem;
+    margin-top: -2.9rem;
+    color: #9ba3a8;
+}
 
-   #log_in {
+input[type=checkbox] {
+width: 25px;
+height: 50px;
+}
+   
+   #sign_up {
     width: 112%;
     padding: 15px;
     background-color: #a3e6c6;
@@ -87,52 +105,40 @@
     color: white;
     font-size: 20px;
     border-radius: 3px;
+    margin-top: 1.7rem;
    
    }
    hr {
     width: 457px;
-    margin-left: -2rem;
+    margin-left: 0rem;
     margin-top:2rem;
     
    }
 
-   #line {
+   #signup_line {
     color: #505a62;
     font-weight: 300;
     margin-bottom: 1rem;
    }
 
-   #sso {
-    width: 112%;
-    padding: 15px;
-    background: none;
-    border: 1px solid #c1c3c4;
-    font-weight: 400;
-    margin-bottom: 20px;
-   }
-
-   #sso:hover {
-    background-color: #edeeee;
-   }
-
-    #login_logo {
+   #signup_logo {
         
         width: 117%;
         
     }
-    #microsoft{
+    #microsoft1{
         width: 7%;
         border: 1px solid #c1c3c4;
         padding: 13px 13px;
         margin-right: 1.2rem;
     }
-    #facebook{
+    #facebook1{
         width: 9%;
         border: 1px solid #c1c3c4;
         padding: 9px 11px;        
          margin-right: 1.2rem;
     }
-    #linkedin{
+    #linkedin1{
         width: 25px;
         height: 20px;
         border: 1px solid #c1c3c4;
@@ -140,7 +146,7 @@
         margin-right: 1.2rem;
         background: transparent;
     }
-    #google{
+    #google1{
         width: 8%;
         height: 30px;
         border: 1px solid #c1c3c4;
@@ -148,7 +154,7 @@
         margin-right: 1.2rem;
         
     }
-    #apple{
+    #apple1{
         width: 6%;
         height: 30px;
         border: 1px solid #c1c3c4;
@@ -156,26 +162,26 @@
         margin-right: 1.2rem;
     }
 
-    #microsoft:hover {
+    #microsoft1:hover {
         background-color: #edeeee;
     }
 
-    #facebook:hover {
+    #facebook1:hover {
         background-color: #edeeee;
     }
 
-    #linkedin:hover {
+    #linkedin1:hover {
         background-color: #edeeee;
     }
 
-    #google:hover {
+    #google1:hover {
         background-color: #edeeee;
     }
 
-    #apple:hover {
+    #apple1:hover {
         background-color: #edeeee;
     }
-    #names {
+    #signup_names {
         width: 110%;
        
         display: flex;
@@ -184,113 +190,115 @@
         font-size: 12px;
         
     }
-    #micro {
+    #micro1 {
         margin-left: 0.2rem;
         padding: 5px 0px;
        
     }
-    #face {
+    #face1 {
         margin-left: 1.7rem;
         
         padding: 5px 3px;
        
     }
-     #linked {
+     #linked1 {
         margin-left: 1.7rem;
         
         padding: 5px 2px;
        
     }
-    #goog {
+    #goog1 {
         margin-left: 2.4rem;
        
         padding: 5px 2px;
         
     }
-    #app {
+    #app1 {
         margin-left: 2.7rem;
         padding: 5px 0px;
       
     } 
 
-    /*login password page css */
-    #password_login_container{
+
+    /* css for password */
+    
+
+
+    #password_container{
        display: none;
-         width: 40%;
-         height: 420px;
-         margin: auto;
-         font-family: 'Roboto', sans-serif;
-         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
- 
-       
-     }
- 
-     #login_password_form {
-         margin-left: 2rem;
-     }
- 
-     #login_back {
-         float: left;
-         margin-left: 0.8rem;
-         margin-top: 2rem;
-         
-         color: #6e9fb1;
-         font-weight: 300;
-     }
-     #login_back a:hover {
-         text-decoration: underline;
-     }
-     #login_back_angle {
-         margin-left: -1rem;
-         padding-right: 0.4rem;
-         color: #6e9fb1;
-         
-     }
- 
-     #login_password_container h1 {
-         padding-top: 5rem;
-         margin-bottom: 1rem;
-         color: #333e48;
-         font-weight: 300;
-     }
- 
-    label #login_enter_password {
-         font-size: 13px;
-     }
- 
-     #login_password {
-         width: 90%;
-         height: 50px;
-         margin-bottom: 5px;
-         margin-top: 10px;
-         border-radius: 2px;
-         border:1px solid #00bf6f;
-         
-        }
+        width: 40%;
+        height: 580px;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+      
+    }
+
+    #password_form {
+        margin-left: 2rem;
+    }
+
+    #back {
+        float: left;
+        margin-left: 0.8rem;
+        margin-top: 2rem;
         
-   
- 
-     #login_details {
-         margin-bottom: -0.5rem;
-         font-size: 13.5px;
-         font-weight: 300;
-         color: #6d7a81;
-     }
-     #login_details a {
-        text-decoration: none;
-     }
-
-     #login_details a:hover {
+        color: #6e9fb1;
+        font-weight: 300;
+    }
+    #back a:hover {
         text-decoration: underline;
-     }
+    }
+    #back_angle {
+        margin-left: -1rem;
+        padding-right: 0.4rem;
+        color: #6e9fb1;
+        
+    }
 
-     #login_account {
-         width: 92%;
-         padding: 20px;
-         background-color: #00bf6f;
-         border: none;
-         color: white;
-         font-size: 20px;
-         border-radius: 3px;
-         margin-top: 1.7rem;
-     }
+    #password_signup_container h1 {
+        padding-top: 5rem;
+        margin-bottom: 1rem;
+        color: #333e48;
+        font-weight: 300;
+    }
+
+   label #enter_password {
+        font-size: 13px;
+    }
+
+    #signup_password {
+        width: 90%;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+       }
+
+    #confirm_signup_password {
+        font-size: 13px;
+    }   
+
+    #confirm {
+        width: 90%;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #signup_details {
+        width: 97%;
+        font-size: 13.5px;
+        font-weight: 300;
+        color: #6d7a81;
+    }
+    #create_account {
+        width: 92%;
+        padding: 20px;
+        background-color: #a3e6c6;
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 3px;
+        margin-top: 1.7rem;
+    }

@@ -10,6 +10,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
   </head>
   <body>
     <img
@@ -29,7 +31,7 @@
         <input type="email" id="email" placeholder="" />
         <p id="forgot">Forgot email?</p>
 
-        <button onclick="loggedInUser" id="log_in">Next</button>
+        <button id="log_in">Next</button>
         <hr />
       </div>
 
@@ -76,5 +78,131 @@
         </div>
       </div>
     </div>
+
+    <!-- login password page -->
+    <div id="password_login_container">
+   
+
+      <div id="login_password_form">
+        <p id="login_back">
+         <a><i class="fa-solid fa-angle-left"  id="login_back_angle"></i>Back</a>
+        </p>
+  
+        <div  id="login_password_container">
+          <h1>Enter password</h1>
+          <p>anunwn@gmail.com</p>
+          <label for="" id="login_enter_password">Password</label><br />
+          <input type="password" id="login_password" placeholder="" />
+     <p id="login_details"><a href="">Forgot password?</a></p>
+  
+  
+          <button id="login_account">Log in</button>
+  
+      </div>
+          
+       
+  
+        
+      </div>
+      </div>
   </body>
 </html>
+
+<script>
+  let logUser = JSON.parse(localStorage.getItem('users'));
+let flag = JSON.parse(localStorage.getItem('flag')) || false;
+
+
+
+class LoginUser {
+    constructor(email,password) {
+            this.email = email;
+            this.password = password;
+    }
+
+ userValidation() {
+    let validate = false;
+     validate = this.validateEmail() && this.validatePassword() && this.validateEmailPassword();
+     if(validate) {
+        alert('Login Successful');
+        // window.location = 'index.html'
+     }else if (this.validateEmail() == false && this.validatePassword()==true){
+        alert('User Doesnot exist');
+
+     }else if (this.validatePassword() === false && this.validateEmail() == true) {
+        alert('Incorrect Password')
+     }else {
+        alert('Wrong Credentials')
+     }
+        
+     }
+ 
+
+validateEmail() {
+    let checkEmail = false;
+    logUser.forEach(ele => {
+        if(this.email === ele.email) {
+            checkEmail=true;
+        }
+    });
+    return checkEmail;
+}
+
+validatePassword() {
+    let checkPassword = false;
+    logUser.forEach(ele => {
+        if(this.password === ele.password) {
+            checkPassword=true;
+        
+        }
+          
+    });
+    return checkPassword;
+}
+
+
+validateEmailPassword() {
+    let checkEmailPassword = false;
+    logUser.forEach(ele => {
+        if(this.email === ele.email && this.password === ele.password) {
+            checkEmailPassword=true;
+             flag= true;
+        
+        }
+          
+    });
+    localStorage.setItem('flag', JSON.stringify(flag))
+    return checkEmailPassword;
+}
+}
+
+let loggedInUser = () => {
+    let email = login_email_store;
+    let password = login_password_store;
+
+    let l1 = new LoginUser(email,password);
+    l1.userValidation();
+}
+
+let login_email_store;  
+let login_password_store;
+document.getElementById('log_in').addEventListener('click', ()=> {
+    login_email_store = document.getElementById('email').value;
+    console.log(login_email_store)
+    document.getElementById('form').style.display = 'none';
+    document.getElementById('password_login_container').style.display = 'block';
+
+});
+
+document.getElementById('login_account').addEventListener('click', ()=> {
+    login_email_store = document.getElementById('login_password').value;
+    console.log(login_email_store)
+   loggedInUser();
+
+});
+
+document.getElementById('login_back').addEventListener('click', () => {
+  document.getElementById('form').style.display = 'block';
+  document.getElementById('password_login_container').style.display = 'none';
+});
+</script>

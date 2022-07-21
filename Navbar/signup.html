@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,300;1,400;1,500;1,700&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style/signup.css" />
+  </head>
+  <!-- email page -->
+  
+    <img
+      src="https://prod.smassets.net/assets/cms/cc/app/2.178.0/images/logo-surveymonkey.svg"
+      alt=""
+      id="signup_nav_logo"
+    />
+    <div id="signup_top">
+    <div id="signup_form">
+      <p id="sign_dont_have">
+        Don't have an account?<a href="login.html">Log in</a>
+      </p>
+
+      <div  id="signup_container">
+        <h1>Create an account</h1>
+        <label for="">Email address</label><br />
+        <input type="email" id="signup_email" placeholder="" />
+        <input  type="checkbox"><p id="sign_first">You agree to the <a href="">Terms of Use</a> and <a href="">Privacy Notice</a></p></input><br>
+        <input  type="checkbox"><p id="sign_second">You agree to receive product news and special promotions via email. You can opt-out of these emails in your My Account page anytime</p> </input>
+
+        <button id="sign_up">Next</button>
+
+    </div>
+        <hr />
+     
+
+      <div id="signup_container2">
+        <p id="signup_line">Or sign up with</p>
+       
+        <div id="signup_logo">
+          <a href=""
+            ><img
+              src="https://icon-library.com/images/microsoft-icon-png/microsoft-icon-png-21.jpg"
+              alt=""
+              id="microsoft1"
+          /></a>
+          <a href=""
+            ><img
+              src="https://habitat-nola.org/wp-content/uploads/2017/02/facebook-icon-preview-1.png"
+              alt=""
+              id="facebook1"
+          /></a>
+          <a href=""
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+              alt=""
+              id="linkedin1"
+          /></a>
+          <a href=""
+            ><img
+              src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
+              id="google1"
+          /></a>
+          <a href=""
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/814px-Apple_logo_black.svg.png"
+              id="apple1"
+          /></a>
+        </div>
+
+        <div id="signup_names">
+          <div id="micro1">Microsoft</div>
+          <div id="face1">Facebook</div>
+          <div id="linked1">LinkedIn</div>
+          <div id="goog1">Google</div>
+          <div id="app1">Apple</div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+<!-- password page -->
+<div id="password_container">
+   
+
+    <div id="password_form">
+      <p id="back">
+       <a><i class="fa-solid fa-angle-left"  id="back_angle"></i>Back</a>
+      </p>
+
+      <div  id="password_signup_container">
+        <h1>Create password</h1>
+        <p>anunwn@gmail.com</p>
+        <label for="" id="enter_password">Enter a password</label><br />
+        <input type="password" id="signup_password" placeholder="" />
+   <p id="signup_details">Enter at least 8 characters. Don’t use common words, names, or sequential or repeated characters.</p>
+
+   <label for="" id="confirm_signup_password">Confirm Password</label><br/>
+   <input type="password" id="confirm" placeholder="" />
+
+   
+        <button id="create_account">Create account</button>
+
+    </div>
+        
+     </div>
+    </div>
+
+  </body>
+</html>
+<script>
+
+let email_store;  
+let password_store;
+
+let user = JSON.parse(localStorage.getItem('users')) || [];
+
+document.getElementById('sign_up').addEventListener('click',  () => {
+    email_store = document.getElementById('signup_email').value;
+    // console.log(email_store)
+    document.getElementById('signup_top').style.display = 'none';
+    document.getElementById('password_container').style.display = 'block';
+});
+
+
+document.getElementById('create_account').addEventListener('click', ()  => {  
+let confirm_password = document.getElementById('confirm').value;
+let signup_password = document.getElementById('signup_password').value;
+if(confirm_password == signup_password) {
+  password_store = confirm_password
+  signedUp();
+}else {
+  alert('Please enter same password in both the input feilds');
+}
+});
+
+document.getElementById('back').addEventListener('click', () => {
+  document.getElementById('signup_top').style.display = 'block';
+  document.getElementById('password_container').style.display = 'none';
+});
+
+let showdata = () => {
+  console.log(email_store);
+  console.log(password_store);
+}
+
+let signedUp = () => {
+    
+    let email = email_store;
+    let password = password_store;
+
+    let s1 = new AddUser(name);
+    s1.signUp(email,password);
+}
+
+
+class AddUser {
+  constructor(email,password) {
+      // this.name = name;
+      this.email = email;
+      this.password = password;
+  }
+
+
+signUp(email,password) {
+    let validate = false;
+    validate = this.validateEmail(email);
+    if(validate) {
+        this.email = email;
+        this.password = password;
+
+        user.push(this);
+        alert('Signup Successfull')
+        localStorage.setItem('users', JSON.stringify(user))
+        window.location.reload();
+    }else {
+        alert('User Already Exist')
+    }
+
+}
+
+validateEmail(email) {
+    if(user.length == 0) {
+        return true;
+    }else {
+        let check = false;
+        user.forEach(function(ele) {
+            if(ele.email == email) {
+                check = false;
+            }else {
+                check = true;
+            }
+        });
+        return check
+    }
+}
+}
+
+
+
+
+</script>
+
