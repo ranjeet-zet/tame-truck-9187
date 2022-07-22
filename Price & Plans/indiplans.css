@@ -50,6 +50,7 @@ body{
 #btnn{
     margin-top: 82px;
     margin-bottom: 25px;
+    
 }
 .table.premium {
   margin: 0px;
@@ -200,6 +201,9 @@ body{
 .ultimate .btn button:hover{
     background: rgb(96, 118, 226);
     color: #fff;
+  }
+  .list-name{
+    color:grey;
   }
   
   @media (max-width:756px){
