@@ -118,16 +118,8 @@
                                 24/7 Expedited email <br> support
                             </p>
                         </section>
-
-
                     </div>
-
-
                 </div>
-
-
-
-
             </div>
         </div>
 
@@ -140,7 +132,7 @@
             </div>
             <hr id="paymenthr">
             <div class="cardbox">
-                <div class="box1">
+                <div class="box1" id="box11">
                     <div class="righticon">
                         <div class="iconurl"></div>
                     </div>
@@ -152,7 +144,7 @@
                     </div>
                     <div class="text">Credit or Debit Card</div>
                 </div>
-                <div class="box2">
+                <div class="box2" id="box22">
                     <div class="righticon">
                         <div class="iconurl">
                         </div>
@@ -178,7 +170,7 @@
                 </section> -->
 
             </div>
-            <div class="credit_input">
+            <div class="credit_input" id="credit_input11">
                 <div id="payment2">
                     <h2 id="">Name on card</h2>
                     <input id="payment2_card" type="text">
@@ -189,7 +181,23 @@
                 </div>
             </div>
 
+            <div id="invoicedata">
+                <p>1. Complete the Billing Details and Business Information sections.</p>
+
+                <p>2. Click Confirm and we'll email you an invoice.</p>
+                <p style="margin-left: 25px;">You can use paid features once your payment is processed</p>
+            </div>
+
+            <!-- <div id="btn2">
+                <input type="button" value="NEXT" id="next2">
+            </div> -->
+
         </div>
+
+        <!-- Review section -->
+
+
+
         <div id="mainreview">
             <div id="review_order">
                 <h2>3. Review Order</h2>
@@ -214,7 +222,7 @@
 
                             <div id="counetr1">
                                 <button onclick="myFunction()" class="btn">-</button>
-                                <div id="countdiv"></div>
+                                <div id="countdiv">1</div>
                                 <button onclick="myFunction1()" class="btn">+</button>
                             </div>
                             <div id="ammount">
@@ -256,7 +264,7 @@
 
                         </div>
                         <div id="unique2">
-                            <div>₨ 22,320</div>
+                            <div id="u3">0</div>
                         </div>
 
                     </div>
@@ -268,7 +276,9 @@
                     <div id="bill3div1">Total
 
                     </div>
-                    <div id="bill3div2">₨ <strong>78,120 / year</strong><br>
+                    <div id="bill3div2">₨ <strong>
+                            <p id="toat">18000</p>
+                        </strong><br>
                         (GST included)</div>
                 </div>
             </div>
@@ -287,21 +297,9 @@
         <button id="wds" type="submit">Confirm</button>
 
     </div>
-
-
-
     </div>
     </div>
-
-
-
-
     </div>
-
-
-
-
-
 </body>
 
 </html>
