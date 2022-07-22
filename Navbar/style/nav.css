@@ -3,6 +3,7 @@
     border: 1px solid blue;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    /* justify-content: space-evenly; */
    }
 
 #nav_logo {

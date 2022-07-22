@@ -10,6 +10,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
   <body>
     <img
@@ -29,7 +33,7 @@
         <input type="email" id="email" placeholder="" />
         <p id="forgot">Forgot email?</p>
 
-        <button onclick="loggedInUser" id="log_in">Next</button>
+        <button id="log_in">Next</button>
         <hr />
       </div>
 
@@ -76,5 +80,28 @@
         </div>
       </div>
     </div>
+
+    <!-- login password page -->
+    <div id="password_login_container">
+      <div id="login_password_form">
+        <p id="login_back">
+          <a
+            ><i class="fa-solid fa-angle-left" id="login_back_angle"></i>Back</a
+          >
+        </p>
+
+        <div id="login_password_container">
+          <h1>Enter password</h1>
+          <p id="myGmail">anunwn@gmail.com</p>
+          <label for="" id="login_enter_password">Password</label><br />
+          <input type="password" id="login_password" placeholder="" />
+          <p id="login_details"><a href="">Forgot password?</a></p>
+
+          <button id="login_account">Log in</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+
+<script src="script/login.js"></script>
