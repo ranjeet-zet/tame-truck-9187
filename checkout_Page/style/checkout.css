@@ -468,26 +468,108 @@
 }
 
 #bill1 {
-    height: auto;
+    height: 200px;
     width: 99%;
     /* border: 1px solid red; */
-    display: flex;
-    gap: 5px;
+    /* display: flex;
+    gap: 5px; */
+    margin-top: 3%;
 
 }
 
-#bill1>div {
+#bill1div1 {
+    height: auto;
+    /* border: 1px solid gold; */
+    display: flex;
+    gap: 5px;
+}
+
+#bill1div1>div {
+    height: 30px;
+    /* border: 1px solid blue; */
     font-size: 16px;
     font-weight: 500;
     line-height: 1.35;
 
 }
 
-#bill1>div>img {
+#bill1div1>div>img {
     height: 15px;
+    margin-top: -5%;
 }
 
-#bill1 p {
+/* #bill1 p {
     margin-left: -55%;
     margin-top: 2%;
+} */
+
+#seat_per_year {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #00bf6f;
+    margin-top: 40%;
+
+}
+
+#bill1div2 {
+    margin-top: 2%;
+}
+
+#bill1div3 {
+    margin-top: 2%;
+}
+
+#counter {
+    height: auto;
+    width: 99%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+
+}
+
+#counetr1 {
+    height: auto;
+    width: 25%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2px;
+}
+
+#counter1>div {
+    height: 20px;
+    width: 20%;
+    /* border: 1px solid green; */
+}
+
+.btn {
+    /* background-color: #00bf6f; */
+    color: white;
+    border: #F7F8FA;
+    background-color: #00bf6f;
+    height: 25px;
+    width: 20%;
+    border-radius: 2px;
+}
+
+#ammount {
+    height: auto;
+    width: 40%;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#amounttext {
+    height: auto;
+    width: 43%;
+    /* border: 1px solid blue; */
+    margin-top: 8%;
+    margin-left: 53%;
 }

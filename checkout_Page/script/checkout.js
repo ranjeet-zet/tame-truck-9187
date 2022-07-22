@@ -42,3 +42,29 @@ function show() {
         x.style.display = "none";
     }
 }
+
+
+
+// counter
+var count1 = 0;
+// var count2 = 0
+function myFunction() {
+    count1--
+    console.log(count1)
+    let cont = document.getElementById("countdiv").innerText = count1;
+
+
+}
+
+function myFunction1() {
+    count1++
+    console.log(count1)
+    let cont = document.getElementById("countdiv").innerText = count1;
+
+}
+
+
+
+
+
+
