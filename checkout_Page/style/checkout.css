@@ -33,6 +33,7 @@
 #maintop_left_right {
     height: auto;
     width: 98%;
+    /* overflow: scroll; */
     /* border: 1px solid red; */
     display: flex;
     gap: 100px;
@@ -148,7 +149,9 @@
     /* margin: auto; */
     /* border: 1px solid red; */
     margin-left: 30%;
+
 }
+
 
 #section {
     height: auto;
@@ -264,12 +267,21 @@
     height: auto;
     width: 50%;
     /* border: 2px solid green; */
-    margin-top: 5%;
+    margin-top: -8%;
 }
 
 #payment img {
     margin-right: 65%;
     font-size: 10px;
+}
+
+
+#invoicedata {
+    display: none;
+}
+
+#invoicedata>p {
+    font-size: 25px;
 }
 
 #paymenthr {
@@ -436,7 +448,8 @@
 .credit_input {
     height: auto;
     width: 99%;
-    /* border: 1px solid red; */
+    /* border: 10px solid red; */
+    /* background-color: ; */
 }
 
 /* order review */
