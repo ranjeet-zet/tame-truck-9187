@@ -10,7 +10,9 @@ var typing = new Typed("#home_slidetext", {
   backSpeed: 20,
   loop: true,
 });
+import footer from "../components/footer.js";
 
+document.getElementById("footerplace").innerHTML = footer();
 import navbar from "../../Navbar/component/navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
