@@ -20,5 +20,13 @@
 #### `Landing Page`
 ![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/Home%20Page.png)
 <br/>
-
+![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/Home.png)
+<br/>
 ![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/Home%20Page%20middle.png)
+<br/>
+![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/home2.png)
+<br/>
+![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/home3.png)
+<br/>
+![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/home4.png)
+<br/>
