@@ -1,34 +1,37 @@
 
 function navbar() {
     return `
-    <img src="https://prod.smassets.net/assets/cms/cc/app/2.178.0/images/logo-surveymonkey.svg" alt="" id="nav_logo">
-
-<!-- navbar middle part-->
-<div id="nav_middle">
-    <div id="nav_products">
-        <h3>Products<i class="fa-solid fa-angle-down" id="nav_icon"></i></h3>
-    </div>
-    <div id="nav_solutions">
-        <h3>Solutions<i class="fa-solid fa-angle-down" id="nav_icon"></i></h3>
-    </div>
-    
-    <div id="nav_resources">
-    <h3>Resources<i class="fa-solid fa-angle-down" id="nav_icon"></i></h3>
-</div>
-
-<div id="nav_plans">
-    <h3>Plans & Pricing<i class="fa-solid fa-angle-down" id="nav_icon"></i></h3>
-</div>
-
-
-</div>
-
-
-<!-- navbar right part-->
-<div id="nav_right">
-    <a href="login.html" id="logIn">Log in</a>
-    <a href="signup.html" id="signUp">Sign up free</a>
-</div>
+    <div>
+    <img
+      src="https://prod.smassets.net/assets/cms/cc/app/2.178.0/images/logo-surveymonkey.svg"
+      alt=""
+      id="nav_logo"
+    />
+  </div>
+  <div>
+    <ul>
+      <li id="pro">
+        Products
+        <span class="material-symbols-outlined"> expand_more </span>
+      </li>
+      <li id="sol">
+        Solutions
+        <span class="material-symbols-outlined"> expand_more</span>
+      </li>
+      <li id="res">
+        Resorces
+        <span class="material-symbols-outlined"> expand_more </span>
+      </li>
+      <li id="pri">
+        Plans & Pricing
+        
+      </li>
+    </ul>
+  </div>
+  <div id="nav_right">
+    <button id="nav_login"><a href="login.html">Log in</a></button>
+    <button id="nav_signup"><a href="signup.html">Sign up free</a></button>
+  </div>
    `
 }
 
