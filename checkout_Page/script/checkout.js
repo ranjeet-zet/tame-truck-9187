@@ -52,6 +52,8 @@ function myFunction() {
     count1--
     console.log(count1)
     let cont = document.getElementById("countdiv").innerText = count1;
+    let tota2 = document.getElementById("amounttext").innerText = count1 * 18600
+    console.log(tota2)
 
 
 }
@@ -60,8 +62,21 @@ function myFunction1() {
     count1++
     console.log(count1)
     let cont = document.getElementById("countdiv").innerText = count1;
+    let total = document.getElementById("amounttext").innerText = count1 * 18600
+    console.log(total)
 
 }
+function seatFunction() {
+    // console.log("hello")
+    let dropdown = document.getElementById("dropdown").value
+    // console.log(dropdown)
+
+    let uinq = document.getElementById("unique2").innerText = dropdown * 11160
+
+    // let fulltotal = total + uinq
+    // console.log(fulltotal)
+}
+
 
 
 
