@@ -106,7 +106,7 @@ function displayy() {
 
 //     document.getElementById("mainreview").style.marginTop = "-300px";
 // }
-
+document.getElementById("wds").addEventListener("click", conform);
 function conform() {
   alert("Thanku you for your order");
   window.location.href = "thankyou.html";
