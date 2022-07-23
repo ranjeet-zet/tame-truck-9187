@@ -1,296 +1,293 @@
 #nav_logo {
-    margin-left: 21.3rem;
-    padding-bottom: -3rem;
-   }
+  margin-left: 21.3rem;
+  padding-bottom: -3rem;
+}
 
-    #form{
-        /* border:1px solid red; */
-        width: 40%;
-        height: 600px;
-        margin: auto;
-        font-family: 'Roboto', sans-serif;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        /* display: none; */
-    }
-    #login_container h1 {
-        padding-top: 5rem;
-        margin-bottom: 1rem;
-        color: #333e48;
-        font-weight: 300;
-    }
-    #dont_have {
-        float: right;
-        margin-right: 2rem;
-        margin-top: 2rem;
-        /* margin-bottom: 12rem; */
-        color: #505a62;
-        font-weight: 300;
-    }
-    #dont_have a {
-        text-decoration: none;
-        color: #418298;
-        font-weight: 400;
-        margin-left: 4px;
-    }
+#form {
+  /* border:1px solid red; */
+  width: 40%;
+  height: 600px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* display: none; */
+}
+#login_container h1 {
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  color: #333e48;
+  font-weight: 300;
+}
+#dont_have {
+  float: right;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  /* margin-bottom: 12rem; */
+  color: #505a62;
+  font-weight: 300;
+}
+#dont_have a {
+  text-decoration: none;
+  color: #418298;
+  font-weight: 400;
+  margin-left: 4px;
+}
 
-    #dont_have a:hover { 
-        text-decoration: underline;
-    }
-    label {
-        font-size: 15px;
-    }
+#dont_have a:hover {
+  text-decoration: underline;
+}
+label {
+  font-size: 15px;
+}
 
-    span {
-        color:#1cc377;
-        margin-left: 10px;
-    }
+span {
+  color: #1cc377;
+  margin-left: 10px;
+}
 
-   #login_container {
-    /* border: 1px solid red; */
-    width: 75%;
-    /* height: 500px; */
-    margin: auto;
-    margin-left: 2rem;
-    
-   }
+#login_container {
+  /* border: 1px solid red; */
+  width: 75%;
+  /* height: 500px; */
+  margin: auto;
+  /* margin-left: 2rem; */
+}
 
-   #login_container2 {
-    /* border: 1px solid red; */
-    width: 75%;
-    margin: auto;
-    margin-left: 2rem;
-    margin-top: 2rem;
-   }
+#login_container2 {
+  /* border: 1px solid red; */
+  width: 75%;
+  margin: auto;
+  /* margin-left: 2rem; */
+  margin-top: 2rem;
+}
 
-   #email {
-    width: 110%;
-    height: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-   }
+#email {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
-   #forgot {
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-    color: #367a91;
-   }
+#forgot {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  color: #367a91;
+}
 
-   #forgot:hover {
-    text-decoration: underline;
-   }
+#forgot:hover {
+  text-decoration: underline;
+}
 
-   #log_in {
-    width: 112%;
-    padding: 15px;
-    background-color: #a3e6c6;
-    border: none;
-    color: white;
-    font-size: 20px;
-    border-radius: 3px;
-   
-   }
-   hr {
-    width: 457px;
-    margin-left: -2rem;
-    margin-top:2rem;
-    
-   }
+#log_in {
+  width: 100%;
+  padding: 15px;
+  background-color: #a3e6c6;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+}
+hr {
+  width: 100%;
+  /* margin-left: -2rem; */
+  margin: auto;
+  margin-top: 2rem;
+}
 
-   #line {
-    color: #505a62;
-    font-weight: 300;
-    margin-bottom: 1rem;
-   }
+#line {
+  color: #505a62;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
 
-   #sso {
-    width: 112%;
-    padding: 15px;
-    background: none;
-    border: 1px solid #c1c3c4;
-    font-weight: 400;
-    margin-bottom: 20px;
-   }
+#sso {
+  width: 100%;
+  padding: 15px;
+  background: none;
+  border: 1px solid #c1c3c4;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
 
-   #sso:hover {
-    background-color: #edeeee;
-   }
+#sso:hover {
+  background-color: #edeeee;
+}
 
-    #login_logo {
-        
-        width: 117%;
-        
-    }
-    #microsoft{
-        width: 7%;
-        border: 1px solid #c1c3c4;
-        padding: 13px 13px;
-        margin-right: 1.2rem;
-    }
-    #facebook{
-        width: 9%;
-        border: 1px solid #c1c3c4;
-        padding: 9px 11px;        
-         margin-right: 1.2rem;
-    }
-    #linkedin{
-        width: 25px;
-        height: 20px;
-        border: 1px solid #c1c3c4;
-        padding: 17px 16px;
-        margin-right: 1.2rem;
-        background: transparent;
-    }
-    #google{
-        width: 8%;
-        height: 30px;
-        border: 1px solid #c1c3c4;
-        padding: 12px 13px;
-        margin-right: 1.2rem;
-        
-    }
-    #apple{
-        width: 6%;
-        height: 30px;
-        border: 1px solid #c1c3c4;
-        padding: 12px 14px;
-        margin-right: 1.2rem;
-    }
+#login_logo {
+  /* width: 100%; */
+  width: 100%;
+  /* height: 50px; */
+  margin: auto;
+  display: flex;
+  /* grid-template-columns: repeat(5, 1fr); */
+  justify-content: space-between;
+  gap: 12px;
+}
+#login_logo img {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  padding: 5px;
+  height: 50px;
+}
+/* #microsoft {
+  width: 7%;
+  border: 1px solid #c1c3c4;
+  padding: 13px 13px;
+  margin-right: 1.2rem;
+}
+#facebook {
+  width: 9%;
+  border: 1px solid #c1c3c4;
+  padding: 9px 11px;
+  margin-right: 1.2rem;
+}
+#linkedin {
+  width: 25px;
+  height: 20px;
+  border: 1px solid #c1c3c4;
+  padding: 17px 16px;
+  margin-right: 1.2rem;
+  background: transparent;
+}
+#google {
+  width: 8%;
+  height: 30px;
+  border: 1px solid #c1c3c4;
+  padding: 12px 13px;
+  margin-right: 1.2rem;
+}
+#apple {
+  width: 6%;
+  height: 30px;
+  border: 1px solid #c1c3c4;
+  padding: 12px 14px;
+  margin-right: 1.2rem;
+} */
 
-    #microsoft:hover {
-        background-color: #edeeee;
-    }
+#microsoft:hover {
+  background-color: #edeeee;
+}
 
-    #facebook:hover {
-        background-color: #edeeee;
-    }
+#facebook:hover {
+  background-color: #edeeee;
+}
 
-    #linkedin:hover {
-        background-color: #edeeee;
-    }
+#linkedin:hover {
+  background-color: #edeeee;
+}
 
-    #google:hover {
-        background-color: #edeeee;
-    }
+#google:hover {
+  background-color: #edeeee;
+}
 
-    #apple:hover {
-        background-color: #edeeee;
-    }
-    #names {
-        width: 110%;
-       
-        display: flex;
-        font-weight: 400;
-        color: #505a62;
-        font-size: 12px;
-        
-    }
-    #micro {
-        margin-left: 0.2rem;
-        padding: 5px 0px;
-       
-    }
-    #face {
-        margin-left: 1.7rem;
-        
-        padding: 5px 3px;
-       
-    }
-     #linked {
-        margin-left: 1.7rem;
-        
-        padding: 5px 2px;
-       
-    }
-    #goog {
-        margin-left: 2.4rem;
-       
-        padding: 5px 2px;
-        
-    }
-    #app {
-        margin-left: 2.7rem;
-        padding: 5px 0px;
-      
-    } 
+#apple:hover {
+  background-color: #edeeee;
+}
+#names {
+  width: 100%;
 
-    /*login password page css */
-    #password_login_container{
-       display: none;
-         width: 40%;
-         height: 420px;
-         margin: auto;
-         font-family: 'Roboto', sans-serif;
-         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
- 
-       
-     }
- 
-     #login_password_form {
-         margin-left: 2rem;
-     }
- 
-     #login_back {
-         float: left;
-         margin-left: 0.8rem;
-         margin-top: 2rem;
-         
-         color: #6e9fb1;
-         font-weight: 300;
-     }
-     #login_back a:hover {
-         text-decoration: underline;
-     }
-     #login_back_angle {
-         margin-left: -1rem;
-         padding-right: 0.4rem;
-         color: #6e9fb1;
-         
-     }
- 
-     #login_password_container h1 {
-         padding-top: 5rem;
-         margin-bottom: 1rem;
-         color: #333e48;
-         font-weight: 300;
-     }
- 
-    label #login_enter_password {
-         font-size: 13px;
-     }
- 
-     #login_password {
-         width: 90%;
-         height: 50px;
-         margin-bottom: 5px;
-         margin-top: 10px;
-         border-radius: 2px;
-         border:1px solid #00bf6f;
-         
-        }
-        
-   
- 
-     #login_details {
-         margin-bottom: -0.5rem;
-         font-size: 13.5px;
-         font-weight: 300;
-         color: #6d7a81;
-     }
-     #login_details a {
-        text-decoration: none;
-     }
+  display: flex;
+  font-weight: 400;
+  color: #505a62;
+  font-size: 12px;
+  justify-content: space-around;
+}
+#micro {
+  margin-left: 0.2rem;
+  padding: 5px 0px;
+}
+#face {
+  margin-left: 1.7rem;
 
-     #login_details a:hover {
-        text-decoration: underline;
-     }
+  padding: 5px 3px;
+}
+#linked {
+  margin-left: 1.7rem;
 
-     #login_account {
-         width: 92%;
-         padding: 20px;
-         background-color: #00bf6f;
-         border: none;
-         color: white;
-         font-size: 20px;
-         border-radius: 3px;
-         margin-top: 1.7rem;
-     }
+  padding: 5px 2px;
+}
+#goog {
+  margin-left: 2.4rem;
+
+  padding: 5px 2px;
+}
+#app {
+  margin-left: 2.7rem;
+  padding: 5px 0px;
+}
+
+/*login password page css */
+#password_login_container {
+  display: none;
+  width: 40%;
+  height: 420px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#login_password_form {
+  margin-left: 2rem;
+}
+
+#login_back {
+  float: left;
+  margin-left: 0.8rem;
+  margin-top: 2rem;
+
+  color: #6e9fb1;
+  font-weight: 300;
+}
+#login_back a:hover {
+  text-decoration: underline;
+}
+#login_back_angle {
+  margin-left: -1rem;
+  padding-right: 0.4rem;
+  color: #6e9fb1;
+}
+
+#login_password_container h1 {
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  color: #333e48;
+  font-weight: 300;
+}
+
+label #login_enter_password {
+  font-size: 13px;
+}
+
+#login_password {
+  width: 90%;
+  height: 50px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 2px;
+  border: 1px solid #00bf6f;
+}
+
+#login_details {
+  margin-bottom: -0.5rem;
+  font-size: 13.5px;
+  font-weight: 300;
+  color: #6d7a81;
+}
+#login_details a {
+  text-decoration: none;
+}
+
+#login_details a:hover {
+  text-decoration: underline;
+}
+
+#login_account {
+  width: 92%;
+  padding: 20px;
+  background-color: #00bf6f;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-top: 1.7rem;
+}

@@ -1,342 +1,344 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #top {
-    height: 80px;
-    width: 100%;
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: gray;
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    box-shadow: 0 17px 10px -15px rgb(0 0 0 / 11%);
-
+  height: 80px;
+  width: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: gray;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: 0 17px 10px -15px rgb(0 0 0 / 11%);
 }
 
 #lock {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #maincontainer {
-    height: auto;
-    width: 90%;
-    /* border: 1px solid black; */
-    margin: auto;
-    margin-top: 2%;
+  height: auto;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 2%;
+  /* position: relative; */
 }
 
 #maintop_left_right {
-    height: auto;
-    width: 98%;
-    /* overflow: scroll; */
-    /* border: 1px solid red; */
-    display: flex;
-    gap: 100px;
-    padding: 5px;
+  height: auto;
+  width: 98%;
+  /* overflow: scroll; */
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 100px;
+  padding: 5px;
 }
 
 #left {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #leftside {
-    height: 700px;
-    width: 50%;
-    /* border: 1px solid blue; */
+  height: 700px;
+  width: 50%;
+  /* border: 1px solid blue; */
 }
 
 #rightside {
-    height: auto;
-    width: 50%;
-    /* border: 1px solid blue; */
+  height: auto;
+  width: 50%;
+  /* position: fixed; */
+  right: 5%;
+  /* border: 1px solid blue; */
 }
 
-#left>h2 {
-    margin-bottom: 8%;
+#left > h2 {
+  margin-bottom: 8%;
 }
 
 #user_Details {
-    height: 500px;
-    /* background-color: red; */
-    /* overflow: hidden; */
-    width: 95%;
-    margin: auto;
-    /* border: 1px solid teal; */
-    margin-top: 5%;
+  height: 500px;
+  /* background-color: red; */
+  /* overflow: hidden; */
+  width: 95%;
+  margin: auto;
+  /* border: 1px solid teal; */
+  margin-top: 5%;
 }
 
-#formdata>input {
-    height: 40px;
+#formdata > input {
+  height: 40px;
 }
 
 .name {
-    display: block;
-    color: #333e48;
-    line-height: 1.5;
-    font-size: 30px;
-    font-weight: 400;
-    margin: 0 0 4px;
-
+  display: block;
+  color: #333e48;
+  line-height: 1.5;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 0 4px;
 }
 
 #first_name,
 #last_name,
 #Billing_email {
-    width: 95%;
-    height: auto;
+  width: 95%;
+  height: auto;
 }
 
 #btn {
-    margin-top: 10%;
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: flex-end;
+  margin-top: 10%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: flex-end;
 }
 
-#btn>input {
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    font-weight: 500;
-    box-shadow: none;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 191, 111);
-    border-radius: 2px;
-    text-decoration: none;
-    border-color: rgb(0, 191, 111);
-    padding: 10px;
-    margin-right: 20px;
+#btn > input {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 191, 111);
+  border-radius: 2px;
+  text-decoration: none;
+  border-color: rgb(0, 191, 111);
+  padding: 10px;
+  margin-right: 20px;
 }
 
 #right {
-    height: auto;
-    width: 95%;
-    /* border: 1px solid green; */
-    margin: auto;
+  height: auto;
+  width: 95%;
+  /* border: 1px solid green; */
+  margin: auto;
 }
 
 #icon {
-    height: 200px;
-    /* border: 2px solid black; */
-    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.66.0/assets/Advantage_illustration.svg);
-    /* width: 20%; */
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  height: 200px;
+  /* border: 2px solid black; */
+  background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.66.0/assets/Advantage_illustration.svg);
+  /* width: 20%; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .heading_right {
-    text-align: center;
-    font-size: 40px;
-    color: #333e48;
-    line-height: 1.5;
-    font-weight: 400;
+  text-align: center;
+  font-size: 40px;
+  color: #333e48;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 #mainsection {
-    height: auto;
-    width: 60%;
-    /* margin: auto; */
-    /* border: 1px solid red; */
-    margin-left: 30%;
-
+  height: auto;
+  width: 60%;
+  /* margin: auto; */
+  /* border: 1px solid red; */
+  margin-left: 30%;
 }
-
 
 #section {
-    height: auto;
-    /* border: 1px solid green; */
-    display: flex;
-    gap: 10px;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 20px;
-    color: gray;
-
+  height: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 10px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
 }
 
-
-#section>img {
-    height: 25px;
+#section > img {
+  height: 25px;
 }
 
 #section1 {
-    height: auto;
-    /* border: 1px solid green; */
-    display: flex;
-    gap: 10px;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 20px;
-    color: gray;
-
+  height: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 10px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
 }
 
-#section1>img {
-    height: 25px;
+#section1 > img {
+  height: 25px;
 }
 
 #section2 {
-    height: auto;
-    /* border: 1px solid green; */
-    display: flex;
-    gap: 10px;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 20px;
-    color: gray;
-
+  height: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 10px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
 }
 
-#section2>img {
-    height: 25px;
+#section2 > img {
+  height: 25px;
 }
 
 #section3 {
-    height: auto;
-    /* border: 1px solid green; */
-    display: flex;
-    gap: 10px;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 20px;
-    color: gray;
-
+  height: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 10px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
 }
 
-#section3>img {
-    height: 25px;
+#section3 > img {
+  height: 25px;
 }
 
 #section4 {
-    height: auto;
-    /* border: 1px solid green; */
-    display: flex;
-    gap: 10px;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 20px;
-    color: gray;
-
+  height: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 10px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
 }
 
-#section4>img {
-    height: 25px;
+#section4 > img {
+  height: 25px;
 }
 
 #section5 {
-    height: auto;
-    /* border: 1px solid green; */
-    display: flex;
-    gap: 10px;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 20px;
-    color: gray;
-
+  height: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 10px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
 }
 
-#section5>img {
-    height: 25px;
+#section5 > img {
+  height: 25px;
 }
 
 /* payment part */
 #payment {
-    height: auto;
-    width: 50%;
-    /* border: 2px solid green; */
-    margin-top: -8%;
+  height: auto;
+  width: 50%;
+  /* border: 2px solid green; */
+  margin-top: -8%;
 }
 
 #payment img {
-    margin-right: 65%;
-    font-size: 10px;
+  margin-right: 65%;
+  font-size: 10px;
 }
-
 
 #invoicedata {
-    display: none;
+  display: none;
 }
 
-#invoicedata>p {
-    font-size: 25px;
+#invoicedata > p {
+  font-size: 25px;
 }
 
 #paymenthr {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 #payment1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #payment2 {
-    height: 100px;
-    /* width: 100%; */
-    /* border: 1px solid black; */
-    margin-top: 5%;
+  height: 100px;
+  /* width: 100%; */
+  /* border: 1px solid black; */
+  margin-top: 5%;
 }
 
-#payment2>input {
-    margin-top: 3%;
-    width: 98%;
-    height: 40px;
+#payment2 > input {
+  margin-top: 3%;
+  width: 98%;
+  height: 40px;
 }
 
 #payment3 {
-    height: 100px;
-    margin-top: 3%;
+  height: 100px;
+  margin-top: 3%;
 }
 
-#payment3>input {
-    margin-top: 3%;
-    width: 98%;
-    height: 40px;
+#payment3 > input {
+  margin-top: 3%;
+  width: 98%;
+  height: 40px;
 }
 
 .cardbox {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid black; */
-    display: flex;
-    gap: 10px;
+  height: auto;
+  width: 99%;
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 10px;
 }
 
 .box1 {
-    height: auto;
-    width: 20%;
-    border: 1px solid #00bf6f;
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 11%);
-    /* margin: 0 5px 0 5px; */
-    cursor: pointer;
-    margin-top: 5%;
+  height: auto;
+  width: 20%;
+  border: 1px solid #00bf6f;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 8px 14px 0 rgb(0 0 0 / 11%);
+  /* margin: 0 5px 0 5px; */
+  cursor: pointer;
+  margin-top: 5%;
 }
 
 /* .box1:hover,
@@ -345,171 +347,170 @@
 
 } */
 .box.active:hover {
-    background-color: #00bf6f;
+  background-color: #00bf6f;
 }
 
 .box2 {
-    height: 140px;
-    width: 20%;
-    border: 1px solid #00bf6f;
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 11%);
-    /* margin: 0 5px 0 5px; */
-    cursor: pointer;
-    margin-top: 5%;
-
+  height: 140px;
+  width: 20%;
+  border: 1px solid #00bf6f;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 8px 14px 0 rgb(0 0 0 / 11%);
+  /* margin: 0 5px 0 5px; */
+  cursor: pointer;
+  margin-top: 5%;
 }
 
 .righticon {
-    height: auto;
-    /* border: 1px solid #00bf6f; */
-    width: 99%;
-    display: flex;
-    justify-content: end;
-    margin-bottom: 15%;
+  height: auto;
+  /* border: 1px solid #00bf6f; */
+  width: 99%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 15%;
 }
 
 .iconurl {
-    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/Checkmark-payment-method.svg);
-    height: 20px;
-    width: 20px;
-    margin: 5px;
-    background-repeat: no-repeat;
+  background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/Checkmark-payment-method.svg);
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  background-repeat: no-repeat;
 }
 
 .cardurl {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: auto;
+  width: 99%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .finalurl {
-    height: 18px;
-    width: 25px;
-    /* border: 1px solid #00bf6f; */
-    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/CC-logo-green.svg);
-    background-repeat: no-repeat;
-
+  height: 18px;
+  width: 25px;
+  /* border: 1px solid #00bf6f; */
+  background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/CC-logo-green.svg);
+  background-repeat: no-repeat;
 }
 
 .text {
-    height: auto;
-    width: 97%;
-    /* border: 2px solid goldenrod; */
-    color: #333e48;
-    line-height: 1.5;
-    margin: 0;
-    font-weight: 400;
-    margin-top: 15%;
-    text-align: center;
-    font-family: National\ 2, Helvetica Neue, Helvetica, Arial, Hiragino Sans, Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
+  height: auto;
+  width: 97%;
+  /* border: 2px solid goldenrod; */
+  color: #333e48;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+  margin-top: 15%;
+  text-align: center;
+  font-family: National\2, Helvetica Neue, Helvetica, Arial, Hiragino Sans,
+    Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic,
+    Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
 }
 
 .invoice {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: center;
-    color: #333e48;
-    line-height: 1.5;
-    margin: 0;
-    font-weight: 400;
-    font-family: National\ 2, Helvetica Neue, Helvetica, Arial, Hiragino Sans, Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
+  height: auto;
+  width: 99%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  color: #333e48;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+  font-family: National\2, Helvetica Neue, Helvetica, Arial, Hiragino Sans,
+    Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic,
+    Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
 }
 
 .invoiceurl {
-    background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/Invoice-logo-default.svg);
-    height: 22px;
-    width: 24px;
-    background-repeat: no-repeat;
-    margin: 0px 5px 0px 5px;
-    margin-bottom: 15%;
-
+  background-image: url(https://prod.smassets.net/assets/paymentweb/paymentweb/7.67.0/assets/Invoice-logo-default.svg);
+  height: 22px;
+  width: 24px;
+  background-repeat: no-repeat;
+  margin: 0px 5px 0px 5px;
+  margin-bottom: 15%;
 }
 
 .invoicetext {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid gold; */
-    text-align: center;
-    color: #333e48;
-    line-height: 1.5;
-    margin: 0;
-    font-weight: 400;
-    font-family: National\ 2, Helvetica Neue, Helvetica, Arial, Hiragino Sans, Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic, Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
-
+  height: auto;
+  width: 99%;
+  /* border: 1px solid gold; */
+  text-align: center;
+  color: #333e48;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+  font-family: National\2, Helvetica Neue, Helvetica, Arial, Hiragino Sans,
+    Hiragino Kaku Gothic Pro, æ¸¸ã‚´ã‚·ãƒƒã‚¯, æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“, YuGothic,
+    Yu Gothic, ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯, MS Gothic, sans-serif;
 }
 
 .credit_input {
-    height: auto;
-    width: 99%;
-    /* border: 10px solid red; */
-    /* background-color: ; */
+  height: auto;
+  width: 99%;
+  /* border: 10px solid red; */
+  /* background-color: ; */
 }
 
 /* order review */
 #review_order {
-    height: auto;
-    width: 100%;
-    /* border: 1px solid pink; */
-    margin-top: 5%;
+  height: auto;
+  width: 100%;
+  /* border: 1px solid pink; */
+  margin-top: 5%;
 }
 
-#review_order>hr {
-    height: auto;
-    margin-top: 5%;
+#review_order > hr {
+  height: auto;
+  margin-top: 5%;
 }
 
 #mainreview {
-    height: auto;
-    width: 50%;
-    /* border: 1px solid blue; */
-    margin-top: 3%;
-
+  height: auto;
+  width: 50%;
+  /* border: 1px solid blue; */
+  margin-top: 3%;
 }
 
 #bill {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid #00bf6f; */
-    background-color: #F7F8FA;
-    position: relative;
+  height: auto;
+  width: 99%;
+  /* border: 1px solid #00bf6f; */
+  background-color: #f7f8fa;
+  position: relative;
 }
 
 #bill1 {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid blue; */
-    /* display: flex;
+  height: auto;
+  width: 99%;
+  /* border: 1px solid blue; */
+  /* display: flex;
     gap: 5px; */
-    margin-top: 3%;
-
+  margin-top: 3%;
 }
 
 #bill1div1 {
-    height: auto;
-    /* border: 1px solid gold; */
-    display: flex;
-    gap: 5px;
+  height: auto;
+  /* border: 1px solid gold; */
+  display: flex;
+  gap: 5px;
 }
 
-#bill1div1>div {
-    height: 30px;
-    /* border: 1px solid blue; */
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.35;
-
+#bill1div1 > div {
+  height: 30px;
+  /* border: 1px solid blue; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.35;
 }
 
-#bill1div1>div>img {
-    height: 15px;
-    margin-top: -5%;
+#bill1div1 > div > img {
+  height: 15px;
+  margin-top: -5%;
 }
 
 /* #bill1 p {
@@ -518,180 +519,176 @@
 } */
 
 #seat_per_year {
-    height: 50px;
-    width: 100%;
-    /* border: 1px solid #00bf6f; */
-    margin-top: 40%;
-
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid #00bf6f; */
+  margin-top: 40%;
 }
 
 #bill1div2 {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 #bill1div3 {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 #counter {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-
+  height: auto;
+  width: 99%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
 }
 
 #counetr1 {
-    height: auto;
-    width: 25%;
-    border: 1px solid gray;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 2px;
+  height: auto;
+  width: 25%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2px;
 }
 
-#counter1>div {
-    height: 20px;
-    width: 20%;
-    /* border: 1px solid green; */
+#counter1 > div {
+  height: 20px;
+  width: 20%;
+  /* border: 1px solid green; */
 }
 
 .btn {
-    /* background-color: #00bf6f; */
-    color: white;
-    border: #F7F8FA;
-    background-color: #00bf6f;
-    height: 25px;
-    width: 20%;
-    border-radius: 2px;
+  /* background-color: #00bf6f; */
+  color: white;
+  border: #f7f8fa;
+  background-color: #00bf6f;
+  height: 25px;
+  width: 20%;
+  border-radius: 2px;
 }
 
 #ammount {
-    height: auto;
-    width: 40%;
-    /* border: 1px solid red; */
-    text-align: center;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 15px;
-    box-sizing: border-box;
+  height: auto;
+  width: 40%;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  box-sizing: border-box;
 }
 
 #amounttext {
-    height: auto;
-    width: 43%;
-    /* border: 1px solid blue; */
-    margin-top: 2%;
-    margin-left: 53%;
+  height: auto;
+  width: 43%;
+  /* border: 1px solid blue; */
+  margin-top: 2%;
+  margin-left: 53%;
 }
 
 #hr1 {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 #bill2 {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid greenyellow; */
-    margin-top: 20px;
+  height: auto;
+  width: 99%;
+  /* border: 1px solid greenyellow; */
+  margin-top: 20px;
 }
 
 #bill2div1 {
-    height: auto;
-    width: 99%;
-    /* border: 1px solid blue; */
-    display: flex;
-    gap: 10px;
-    margin-top: 1%;
+  height: auto;
+  width: 99%;
+  /* border: 1px solid blue; */
+  display: flex;
+  gap: 10px;
+  margin-top: 1%;
 }
 
-#bill2div1>div {
-    height: auto;
-    /* width: 25%; */
-    /* border: 1px solid red; */
+#bill2div1 > div {
+  height: auto;
+  /* width: 25%; */
+  /* border: 1px solid red; */
 }
 
-#bill2div1>div>img {
-    height: 20px;
-    /* margin-top: -5%; */
+#bill2div1 > div > img {
+  height: 20px;
+  /* margin-top: -5%; */
 }
 
 #bill2div2 {
-    margin-top: 3%;
+  margin-top: 3%;
 }
 
 #bill2div3 {
-    height: 50px;
-    width: 99%;
-    /* border: 1px solid black; */
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+  height: 50px;
+  width: 99%;
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 
 #unique1 {
-    height: auto;
-    width: 10%;
-    border: 1px solid #00bf6f;
-
-
+  height: auto;
+  width: 10%;
+  border: 1px solid #00bf6f;
 }
 
 #unique2 {
-    /* border: 1px solid blue; */
-    height: auto;
-    width: 20%;
+  /* border: 1px solid blue; */
+  height: auto;
+  width: 20%;
 }
 
-#unique2>div {
-    margin-top: 5%;
-    margin-left: 10%;
+#unique2 > div {
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 #dropdown {
-    box-shadow: none;
-    border: none;
-    background: none;
-    width: 100%;
-    height: 100%;
-    font-size: 15px;
-    cursor: pointer;
+  box-shadow: none;
+  border: none;
+  background: none;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 #hr2 {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 #bill3 {
-    /* border: 1px solid blue; */
-    height: auto;
-    width: 99%;
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-
-
+  /* border: 1px solid blue; */
+  height: auto;
+  width: 99%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 
 #bill3div1 {
-    /* border: 1px solid black; */
-    height: auto;
-    width: 40%;
-
+  /* border: 1px solid black; */
+  height: auto;
+  width: 40%;
 }
 
 #bill3div2 {
-    /* border: 1px solid black; */
-    height: auto;
-    width: 40%;
-    text-align: right;
-    /* color: #333e48; */
-    line-height: 1.5;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-
+  /* border: 1px solid black; */
+  height: auto;
+  width: 40%;
+  text-align: right;
+  /* color: #333e48; */
+  line-height: 1.5;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
 }
 
 /* #checkbox {
@@ -708,7 +705,6 @@
     width: 20%;
 } */
 
-
 /* #checkbox1 input {
     height: 50px;
 
@@ -723,26 +719,29 @@
 
 } */
 #wds {
-    width: 50%;
-    padding: 0 24px;
-    font-size: 15px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    font-weight: 500;
-    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    box-shadow: none;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 191, 111);
-    border-radius: 2px;
-    text-decoration: none;
-    transition: color 0.4s ease 0s, border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(0, 191, 111);
-    border-image: initial;
-    margin-bottom: 40%;
-    margin-top: 6%;
+  width: 50%;
+  padding: 0 24px;
+  font-size: 15px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 191, 111);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: color 0.4s ease 0s, border-color 0.4s ease 0s,
+    background-color 0.4s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 191, 111);
+  border-image: initial;
+  margin-bottom: 40px;
+  margin-top: 6%;
 }

@@ -1,310 +1,304 @@
 #signup_nav_logo {
-    margin-left: 21.3rem;
-    padding-bottom: -3rem;
-   }
+  margin-left: 21.3rem;
+  padding-bottom: -3rem;
+}
 
-    #signup_form{
-        /* border:1px solid red; */
-        width: 40%;
-        height: 650px;
-        margin: auto;
-        font-family: 'Roboto', sans-serif;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        /* display: none; */
-    }
-    #signup_container h1 {
-        padding-top: 5rem;
-        margin-bottom: 1rem;
-        color: #333e48;
-        font-weight: 300;
-    }
-    #sign_dont_have {
-        float: right;
-        margin-right: 2rem;
-        margin-top: 2rem;
-        /* margin-bottom: 12rem; */
-        color: #505a62;
-        font-weight: 300;
-    }
-    #sign_dont_have a {
-        text-decoration: none;
-        color: #418298;
-        font-weight: 400;
-        margin-left: 4px;
-    }
+#signup_form {
+  /* border:1px solid red; */
+  width: 40%;
+  height: 650px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* display: none; */
+}
+#signup_container h1 {
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  color: #333e48;
+  font-weight: 300;
+}
+#sign_dont_have {
+  float: right;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  /* margin-bottom: 12rem; */
+  color: #505a62;
+  font-weight: 300;
+}
+#sign_dont_have a {
+  text-decoration: none;
+  color: #418298;
+  font-weight: 400;
+  margin-left: 4px;
+}
 
-    #sign_dont_have a:hover { 
-        text-decoration: underline;
-    }
-    label {
-        font-size: 15px;
-    }
+#sign_dont_have a:hover {
+  text-decoration: underline;
+}
+label {
+  font-size: 15px;
+}
 
-    span {
-        color:#1cc377;
-        margin-left: 10px;
-    }
+span {
+  color: #1cc377;
+  margin-left: 10px;
+}
 
-   #signup_container {
-    
-    width: 75%;
+#signup_container {
+  width: 75%;
 
-    margin: auto;
-    margin-left: 2rem;
-    
-   }
+  margin: auto;
+  /* margin-left: 2rem; */
+}
 
-   #signup_container2 {
-   
-    width: 75%;
-    margin: auto;
-    margin-left: 2rem;
-    margin-top: 2rem;
-   }
+#signup_container2 {
+  width: 80%;
+  margin: auto;
+  /* margin-left: 2rem; */
+  margin-top: 2rem;
+}
 
-   #signup_email {
-    width: 110%;
-    height: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-   }
+#signup_email {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 #sign_first {
-   
-    font-size: 12px;
-    margin-left: 2.5rem;
-    margin-top: -2.3rem;
-    color: #9ba3a8;
+  font-size: 12px;
+  margin-left: 2.5rem;
+  margin-top: -2.3rem;
+  color: #9ba3a8;
 }
 #sign_first a {
-    color: #7ca8b8;
-    text-decoration: none;
+  color: #7ca8b8;
+  text-decoration: none;
 }
 
-
-
 #sign_first a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
 #sign_second {
-    
-    font-size: 11px;
-    margin-left: 2.5rem;
-    margin-top: -2.9rem;
-    color: #9ba3a8;
+  font-size: 11px;
+  margin-left: 2.5rem;
+  margin-top: -2.9rem;
+  color: #9ba3a8;
 }
 
-input[type=checkbox] {
-width: 25px;
-height: 50px;
+input[type="checkbox"] {
+  width: 25px;
+  height: 50px;
 }
 
 /* input[type=checkbox]:checked + #sign_first {
     background-color: #f00;
 } */
-   
-   #sign_up {
-    width: 112%;
-    padding: 15px;
-    background-color: #a3e6c6;
-    border: none;
-    color: white;
-    font-size: 20px;
-    border-radius: 3px;
-    margin-top: 1.7rem;
-   
-   }
-   hr {
-    width: 457px;
-    margin-left: 0rem;
-    margin-top:2rem;
-    
-   }
 
-   #signup_line {
-    color: #505a62;
-    font-weight: 300;
-    margin-bottom: 1rem;
-   }
+#sign_up {
+  width: 100%;
+  padding: 15px;
+  background-color: #a3e6c6;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-top: 1.7rem;
+}
+hr {
+  width: 90%;
+  margin: auto;
+  /* margin-left: 0rem; */
+  margin-top: 2rem;
+}
 
-   #signup_logo {
-        
-        width: 117%;
-        
-    }
-    #microsoft1{
-        width: 7%;
-        border: 1px solid #c1c3c4;
-        padding: 13px 13px;
-        margin-right: 1.2rem;
-    }
-    #facebook1{
-        width: 9%;
-        border: 1px solid #c1c3c4;
-        padding: 9px 11px;        
-         margin-right: 1.2rem;
-    }
-    #linkedin1{
-        width: 25px;
-        height: 20px;
-        border: 1px solid #c1c3c4;
-        padding: 17px 16px;
-        margin-right: 1.2rem;
-        background: transparent;
-    }
-    #google1{
-        width: 8%;
-        height: 30px;
-        border: 1px solid #c1c3c4;
-        padding: 12px 13px;
-        margin-right: 1.2rem;
-        
-    }
-    #apple1{
-        width: 6%;
-        height: 30px;
-        border: 1px solid #c1c3c4;
-        padding: 12px 14px;
-        margin-right: 1.2rem;
-    }
+#signup_line {
+  color: #505a62;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
 
-    #microsoft1:hover {
-        background-color: #edeeee;
-    }
+#signup_logo {
+  width: 100%;
+  /* height: 50px; */
+  margin: auto;
+  display: flex;
+  /* grid-template-columns: repeat(5, 1fr); */
+  justify-content: space-between;
+  gap: 12px;
+}
+#signup_logo img {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.092);
+  padding: 5px;
+  height: 50px;
+  /* width: 30px; */
+}
+/* #microsoft1 {
+  width: 7%;
+  border: 1px solid #c1c3c4;
+  padding: 13px 13px;
+  margin-right: 1.2rem;
+}
+#facebook1 {
+  width: 9%;
+  border: 1px solid #c1c3c4;
+  padding: 9px 11px;
+  margin-right: 1.2rem;
+}
+#linkedin1 {
+  width: 25px;
+  height: 20px;
+  border: 1px solid #c1c3c4;
+  padding: 17px 16px;
+  margin-right: 1.2rem;
+  background: transparent;
+}
+#google1 {
+  width: 8%;
+  height: 30px;
+  border: 1px solid #c1c3c4;
+  padding: 12px 13px;
+  margin-right: 1.2rem;
+}
+#apple1 {
+  width: 6%;
+  height: 30px;
+  border: 1px solid #c1c3c4;
+  padding: 12px 14px;
+  margin-right: 1.2rem;
+} */
 
-    #facebook1:hover {
-        background-color: #edeeee;
-    }
+#microsoft1:hover {
+  background-color: #edeeee;
+}
 
-    #linkedin1:hover {
-        background-color: #edeeee;
-    }
+#facebook1:hover {
+  background-color: #edeeee;
+}
 
-    #google1:hover {
-        background-color: #edeeee;
-    }
+#linkedin1:hover {
+  background-color: #edeeee;
+}
 
-    #apple1:hover {
-        background-color: #edeeee;
-    }
-    #signup_names {
-        width: 110%;
-       
-        display: flex;
-        font-weight: 400;
-        color: #505a62;
-        font-size: 12px;
-        
-    }
-    #micro1 {
-        margin-left: 0.2rem;
-        padding: 5px 0px;
-       
-    }
-    #face1 {
-        margin-left: 1.7rem;
-        
-        padding: 5px 3px;
-       
-    }
-     #linked1 {
-        margin-left: 1.7rem;
-        
-        padding: 5px 2px;
-       
-    }
-    #goog1 {
-        margin-left: 2.4rem;
-       
-        padding: 5px 2px;
-        
-    }
-    #app1 {
-        margin-left: 2.7rem;
-        padding: 5px 0px;
-      
-    } 
+#google1:hover {
+  background-color: #edeeee;
+}
 
+#apple1:hover {
+  background-color: #edeeee;
+}
+#signup_names {
+  width: 100%;
 
-    /* css for password */
-    
+  display: flex;
+  font-weight: 16px;
+  color: #505a62;
+  font-size: 12px;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 8px;
+  /* gap: auto; */
+}
+#micro1 {
+  margin-left: 0.2rem;
+  padding: 5px 0px;
+}
+#face1 {
+  margin-left: 1.7rem;
 
+  padding: 5px 3px;
+}
+#linked1 {
+  margin-left: 1.7rem;
 
-    #password_container{
-       display: none;
-        width: 40%;
-        height: 580px;
-        margin: auto;
-        font-family: 'Roboto', sans-serif;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px 2px;
+}
+#goog1 {
+  margin-left: 2.4rem;
 
-      
-    }
+  padding: 5px 2px;
+}
+#app1 {
+  margin-left: 2.7rem;
+  padding: 5px 0px;
+}
 
-    #password_form {
-        margin-left: 2rem;
-    }
+/* css for password */
 
-    #back {
-        float: left;
-        margin-left: 0.8rem;
-        margin-top: 2rem;
-        
-        color: #6e9fb1;
-        font-weight: 300;
-    }
-    #back a:hover {
-        text-decoration: underline;
-    }
-    #back_angle {
-        margin-left: -1rem;
-        padding-right: 0.4rem;
-        color: #6e9fb1;
-        
-    }
+#password_container {
+  display: none;
+  width: 40%;
+  height: 580px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
-    #password_signup_container h1 {
-        padding-top: 5rem;
-        margin-bottom: 1rem;
-        color: #333e48;
-        font-weight: 300;
-    }
+#password_form {
+  margin-left: 2rem;
+}
 
-   label #enter_password {
-        font-size: 13px;
-    }
+#back {
+  float: left;
+  margin-left: 0.8rem;
+  margin-top: 2rem;
 
-    #signup_password {
-        width: 90%;
-        height: 50px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-       }
+  color: #6e9fb1;
+  font-weight: 300;
+}
+#back a:hover {
+  text-decoration: underline;
+}
+#back_angle {
+  margin-left: -1rem;
+  padding-right: 0.4rem;
+  color: #6e9fb1;
+}
 
-    #confirm_signup_password {
-        font-size: 13px;
-    }   
+#password_signup_container h1 {
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  color: #333e48;
+  font-weight: 300;
+}
 
-    #confirm {
-        width: 90%;
-        height: 50px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
+label #enter_password {
+  font-size: 13px;
+}
 
-    #signup_details {
-        width: 97%;
-        font-size: 13.5px;
-        font-weight: 300;
-        color: #6d7a81;
-    }
-    #create_account {
-        width: 92%;
-        padding: 20px;
-        background-color: #a3e6c6;
-        border: none;
-        color: white;
-        font-size: 20px;
-        border-radius: 3px;
-        margin-top: 1.7rem;
-    }
+#signup_password {
+  width: 90%;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#confirm_signup_password {
+  font-size: 13px;
+}
+
+#confirm {
+  width: 90%;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#signup_details {
+  width: 97%;
+  font-size: 13.5px;
+  font-weight: 300;
+  color: #6d7a81;
+}
+#create_account {
+  width: 92%;
+  padding: 20px;
+  background-color: #a3e6c6;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-top: 1.7rem;
+}
