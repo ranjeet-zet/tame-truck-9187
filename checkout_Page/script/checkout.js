@@ -118,3 +118,10 @@ function displayy() {
 
 //     document.getElementById("mainreview").style.marginTop = "-300px";
 // }
+
+
+
+function conform() {
+    alert("Thanku you for your order")
+    window.location.href = "../thankyou.html"
+}
