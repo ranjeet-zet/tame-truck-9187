@@ -17,7 +17,7 @@ class LoginUser {
     console.log(validate);
     if (validate) {
       alert("Login Successful");
-      // window.location = 'index.html'
+      window.location = "../Pricing/team.html";
     } else if (
       this.validateEmail() == false &&
       this.validatePassword() == true
